@@ -1,0 +1,13 @@
+<body>
+    <div class="container">
+        <p class="q">What is difference between let, var and const in javascript?</p>
+<br>
+<p class="a">
+    var:<br>Variables declared with var are function-scoped, meaning they are only accessible within the function in which they are defined or globally if defined outside of any function.Var variables are hoisted, which means they are moved to the top of their containing function or global scope during the compilation phase. However, their initialization remains in place, so they can be used before they are declared but will have an initial value of undefined.var variables can be redeclared within the same scope, and their values can be changed.',
+    let:<br>Variables declared with let have block scope, meaning they are only accessible within the block (enclosed by curly braces) in which they are defined.let variables are also hoisted, but unlike var, they are not initialized until they are actually declared in the code. This results in a ReferenceError if you try to access them before their declaration.let variables cannot be redeclared within the same block scope, but their values can be changed.',
+    const:<br>Variables declared with const are also block-scoped, just like let.Unlike let, const variables cannot be reassigned after they are initialized. They are meant for declaring constants, hence the name.const variables must be initialized when declared, and you will get an error if you try to declare them without an initial value.const variables are also hoisted like let, but they are not accessible before their declaration.',
+</p>
+    </div>
+</body>
+
+

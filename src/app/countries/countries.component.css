@@ -1,0 +1,17 @@
+/* countries.component.css */
+
+.country-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .country-info {
+    margin-right: 20px; /* Adjust spacing between info and flag */
+  }
+  
+  .country-flag {
+    border: 1px solid #ddd; /* Add a border around the flag */
+    margin-left: auto; /* Push the flag to the right */
+  }
+  

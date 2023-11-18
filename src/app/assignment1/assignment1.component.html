@@ -1,0 +1,22 @@
+<h1><strong>Assignment 1</strong></h1>
+<h2>Name: Hardik Phirke</h2>
+<h2>Enrollment Number:BT21CSE016</h2>
+<h2>Email: hardikphirke@gmail.com</h2>
+
+<div class="flex-container">
+    <div *ngFor="let item of QnA; let i=index"  class="qa-item" [ngClass]="{ 'even': i % 2 === 0, 'odd': i % 2 !== 0 }"  >
+        <!--<h2>{{ item.que }}</h2>
+        <p [innerHTML]="item.ans1"></p>
+        <p [innerHTML]="item.ans2"></p>
+        <p [innerHTML]="item.ans3"></p>
+        <p [innerHTML]="item.ans4"></p>-->
+        <button routerLink="/assignment1/q{{i+1}}">Go to q{{i+1}} Page</button>
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+
+<!--<div class="navigation-buttons">
+    <button (click)="navigateToPrevious()" [disabled]="currentQuestionIndex === 0">Previous</button>
+    <button (click)="navigateToNext()" [disabled]="currentQuestionIndex === QnA.length - 1">Next</button>
+</div>-->

@@ -1,0 +1,43 @@
+<body>
+    <div class="container">
+        <p class="q">What are http and https protocols? Explain in detail the following http methods.<br></p>
+<p class="a">
+        HTTP and HTTPS Protocols: <br> HTTP (Hypertext Transfer Protocol) and HTTPS (HTTP Secure) are protocols used for communication between a client (typically a web browser) and a server (a web server or other resources on the internet). They define how data is transmitted over the internet and are the foundation of the World Wide Web.
+        HTTP (Hypertext Transfer Protocol):<br>HTTP is the standard protocol used for transmitting data over the internet. It operates on top of the TCP/IP (Transmission Control Protocol/Internet Protocol) suite, which ensures reliable data transmission. HTTP is a text-based protocol, and it uses a client-server model, where the client sends requests, and the server responds with data.
+        HTTPS (HTTP Secure):<br>HTTPS is a secure version of HTTP. It uses the same basic principles as HTTP but adds an extra layer of security through the use of SSL/TLS (Secure Sockets Layer/Transport Layer Security) encryption. This encryption ensures that data transmitted between the client and server is encrypted and cannot be easily intercepted or tampered with by malicious actors.
+</p>
+<br>
+<p class="q">a. GET<br></p>
+<p class="a">
+        The GET method is used to request data from a specified resource. When a client (usually a web browser) sends a GET request to a server, it is asking the server to retrieve a resource identified by a URL (Uniform Resource Locator) and return it to the client. GET requests are typically used for fetching web pages, images, documents, or other types of data from a server.
+        Key characteristics of the GET method:<br> 1)It is idempotent, meaning that making multiple identical GET requests will not have different effects than making a single request.<br>
+        2)It should not have a request body. Data is typically included in the URL as query parameters.'
+</p>
+<br>
+<p class="q">b. POST<br></p>
+
+<p class="a">
+    The POST method is used to submit data to be processed to a specified resource. When a client sends a POST request to a server, it typically includes a request body that contains data to be processed by the server. POST requests are commonly used for submitting forms, uploading files, or performing actions that change the state of the server.
+        Key characteristics of the POST method:<br> 1)It is not idempotent, meaning that making multiple identical POST requests may have different effects each time.<br>
+        2)It can include a request body that contains data to be processed by the server.
+</p>
+<br>
+<p class="q">c. PUT<br></p>
+
+<p class="a">
+    The PUT method is used to update or create a resource at a specified URL. When a client sends a PUT request to a server, it is telling the server to replace the resource at the given URL with the provided data. If the resource does not exist, it can be created. PUT requests are used to update or create resources in a idempotent manner.
+    Key characteristics of the PUT method:<br>1)It is idempotent, meaning that making multiple identical PUT requests will have the same effect as making a single request.<br>
+    2)It typically includes a request body that contains the new data to replace the existing resource.
+</p>
+<br>
+<p class="q">d. DELETE<br></p>
+
+<p class="a">
+        The DELETE method is used to request the removal of a resource identified by a URL. When a client sends a DELETE request to a server, it instructs the server to delete the resource at the specified URL. DELETE requests are idempotent, meaning that making multiple identical DELETE requests will have the same effect as making a single request.
+        Key characteristics of the DELETE method:<br> 1) It is idempotent<br>
+        2)It does not typically include a request body since its focused on resource removal.
+</p>
+
+    </div>
+</body>
+        

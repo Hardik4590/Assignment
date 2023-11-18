@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Set your desired background color */
+  }
+  
+  button {
+    margin: 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff; /* Set your desired text color */
+    background-color: #3498db; /* Set your desired button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Set your desired button color on hover */
+  }
+  
